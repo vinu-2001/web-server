@@ -1,4 +1,4 @@
-console.log('Client side javascript file is loaded1')
+// console.log('Client side javascript file is loaded1')
 
 // fetch('http://puzzle.mead.io/puzzle').then((response)=>{
 //     response.json().then((data)=>{
