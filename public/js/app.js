@@ -28,7 +28,7 @@ weatherForm.addEventListener('submit', (e) => {
             if (data.error) {
                 messageOne.textContent = data.error
             } else {
-                const message = data.forecast.forecast + ' with ' + data.forecast.temperature + '°C'
+                const message = data.forecast.forecast + ' with ' + data.forecast.temperature + '°C.' + ' Humidity is ' + data.forecast.humidity + '%'
                 messageOne.textContent = data.location
                 messageTwo.textContent = message
 
